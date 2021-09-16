@@ -1,0 +1,17 @@
+cd /Users/lidanyang/Desktop/Computational-Social-Science-Training-Program
+git clone https://github.com/aramburoc/Git-Hub-Collaboration-Practice-.git
+cd Git-Hub-Collaboration-Practice-
+Git checkout -b Danyang_Li_Branch
+
+touch "text_self_intro"
+vim "text_self_intro"
+:wq
+git add "text_self_intro"
+git commit -m "add self introduction into the text"
+git push --set-upstream origin Danyang_Li_Branch
+touch "text_code"
+vim "text_code"
+:wq
+git add "text_code"
+git commit -m "add code into the text"
+git push --set-upstream origin Danyang_Li_Branch

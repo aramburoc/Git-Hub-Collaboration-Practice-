@@ -1,0 +1,75 @@
+Last login: Thu Sep 16 11:57:13 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Corrines-MacBook-Pro-2:~ corrinearamburo$ cd Desktop/
+(base) Corrines-MacBook-Pro-2:Desktop corrinearamburo$ cd Git\ Hub/
+(base) Corrines-MacBook-Pro-2:Git Hub corrinearamburo$ cd /Users/corrinearamburo/Desktop/Git\ Hub/Computational-Social-Science-Projects 
+(base) Corrines-MacBook-Pro-2:Computational-Social-Science-Projects corrinearamburo$ pwd
+/Users/corrinearamburo/Desktop/Git Hub/Computational-Social-Science-Projects
+(base) Corrines-MacBook-Pro-2:Computational-Social-Science-Projects corrinearamburo$ git clone https://github.com/aramburoc/Git-Hub-Collaboration-Practice-.git
+Cloning into 'Git-Hub-Collaboration-Practice-'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+(base) Corrines-MacBook-Pro-2:Computational-Social-Science-Projects corrinearamburo$ pwd
+/Users/corrinearamburo/Desktop/Git Hub/Computational-Social-Science-Projects
+(base) Corrines-MacBook-Pro-2:Computational-Social-Science-Projects corrinearamburo$ git checkout -b Corrine_Aramburo_Branch
+Switched to a new branch 'Corrine_Aramburo_Branch'
+(base) Corrines-MacBook-Pro-2:Computational-Social-Science-Projects corrinearamburo$ touch All_About_Corrine_Aramburo.txt
+(base) Corrines-MacBook-Pro-2:Computational-Social-Science-Projects corrinearamburo$ rm All_About_Corrine_Aramburo.txt
+(base) Corrines-MacBook-Pro-2:Computational-Social-Science-Projects corrinearamburo$ cd Git-Hub-Collaboration-Practice-
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ ls
+Name of Group Members	README.md
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git checkout -b Corrine_Aramburo_Branch
+Switched to a new branch 'Corrine_Aramburo_Branch'
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git branch
+* Corrine_Aramburo_Branch
+  main
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ touch All-About-Corrine-Aramburo
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ touch All-About-Corrine-Aramburo.txt
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ rm All-About-Corrine-Aramburo
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ vim All-About-Corrine-Aramburo.txt 
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ cat All-About-Corrine-Aramburo.txt 
+Corrine Aramburo is a doctoral candidate in the Joint Doctoral Program in Special Education at UC Berkeley and San Francisco State University. Her research interests include Special education teacher preparation, special education teacher knowledge, on-site administration, special education leadership practices, local special education administrators, supporting the education and inclusion of students with extensive support needs, attribution theory, and the social-medical model of disability. Corrine completed her B.A. in English and History Education at Brigham Young University- Idaho (2008) and an M.A. in special education in the Extensive Support Needs program at San Francisco State University (2014). Corrine taught middle school English and history before becoming a special day class teacher for students with extensive support needs. For the past five years, Corrine has mentored and supervised pre-service special education teachers in the extensive support needs programs at San Francisco State University. Currently. Corrine’s research examines the factors that contribute to the marginalization of students with disabilities—particularly those with significant intellectual disabilities—and how these factors can be diminished via teacher preparation programs and pre-service instruction.
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git push
+fatal: The current branch Corrine_Aramburo_Branch has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin Corrine_Aramburo_Branch
+
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$  git push --set-upstream origin Corrine_Aramburo_Branch
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'Corrine_Aramburo_Branch' on GitHub by visiting:
+remote:      https://github.com/aramburoc/Git-Hub-Collaboration-Practice-/pull/new/Corrine_Aramburo_Branch
+remote: 
+To https://github.com/aramburoc/Git-Hub-Collaboration-Practice-.git
+ * [new branch]      Corrine_Aramburo_Branch -> Corrine_Aramburo_Branch
+Branch 'Corrine_Aramburo_Branch' set up to track remote branch 'Corrine_Aramburo_Branch' from 'origin'.
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git add All-About-Corrine-Aramburo.txt 
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git add All-About-Corrine-Aramburo.txt 
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git commit "Adding my all about me to the branch"
+error: pathspec 'Adding my all about me to the branch' did not match any file(s) known to git
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git commit -m "Adding my all about me to the branch"
+[Corrine_Aramburo_Branch 69d4cf0] Adding my all about me to the branch
+ 1 file changed, 1 insertion(+)
+ create mode 100644 All-About-Corrine-Aramburo.txt
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 949 bytes | 949.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/aramburoc/Git-Hub-Collaboration-Practice-.git
+   dfe293c..69d4cf0  Corrine_Aramburo_Branch -> Corrine_Aramburo_Branch
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git add Corrine-Aramburo-Commands
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git commite -m (Adding my git bash commands)
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git push
+
+

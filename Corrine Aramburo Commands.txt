@@ -71,5 +71,82 @@ To https://github.com/aramburoc/Git-Hub-Collaboration-Practice-.git
 (base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git add Corrine-Aramburo-Commands
 (base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git commite -m "Adding my git bash commands"
 (base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git push
+Last login: Fri Sep 17 14:10:20 on ttys000
 
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Corrines-MacBook-Pro-2:~ corrinearamburo$ cd Desktop/
+(base) Corrines-MacBook-Pro-2:Desktop corrinearamburo$ Git\ Hub/
+-bash: Git Hub/: is a directory
+(base) Corrines-MacBook-Pro-2:Desktop corrinearamburo$ cd Git-Hub-ColComputational-Social-Science-Projects
+-bash: cd: Git-Hub-ColComputational-Social-Science-Projects: No such file or directory
+(base) Corrines-MacBook-Pro-2:Desktop corrinearamburo$ cd Computational-Social-Science-Projects
+-bash: cd: Computational-Social-Science-Projects: No such file or directory
+(base) Corrines-MacBook-Pro-2:Desktop corrinearamburo$ pwd
+/Users/corrinearamburo/Desktop
+(base) Corrines-MacBook-Pro-2:Desktop corrinearamburo$ cd Git\ Hub/
+(base) Corrines-MacBook-Pro-2:Git Hub corrinearamburo$ cd Git-Hub-Collaboration-Practice-
+-bash: cd: Git-Hub-Collaboration-Practice-: No such file or directory
+(base) Corrines-MacBook-Pro-2:Git Hub corrinearamburo$ pwd
+/Users/corrinearamburo/Desktop/Git Hub
+(base) Corrines-MacBook-Pro-2:Git Hub corrinearamburo$ cd Computational-Social-Science-Projects
+(base) Corrines-MacBook-Pro-2:Computational-Social-Science-Projects corrinearamburo$ pwd
+/Users/corrinearamburo/Desktop/Git Hub/Computational-Social-Science-Projects
+(base) Corrines-MacBook-Pro-2:Computational-Social-Science-Projects corrinearamburo$ cd Git-Hub-Collaboration-Practice-
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ pwd
+/Users/corrinearamburo/Desktop/Git Hub/Computational-Social-Science-Projects/Git-Hub-Collaboration-Practice-
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ ls
+All-About-Corrine-Aramburo.txt	Name of Group Members
+Corrine Aramburo Commands.txt	README.md
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ vim Name\ of\ Group\ Members 
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git add Name\ of\ Group\ Members 
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git commit -m "Adding my info to the group names"
+[Corrine_Aramburo_Branch 1c8e58d] Adding my info to the group names
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git push Name\ of\ Group\ Members 
+fatal: invalid gitfile format: Name of Group Members
+fatal: Could not read from remote repository.
 
+Please make sure you have the correct access rights
+and the repository exists.
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git checkout -b Corrine_Aramburo_New_nrach
+Switched to a new branch 'Corrine_Aramburo_New_nrach'
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git add Name\ of\ Group\ Members 
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git commit -m "adding my info to the group name"
+On branch Corrine_Aramburo_New_nrach
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git add Name\ of\ Group\ Members 
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git commit -m "adding info to group name file"
+On branch Corrine_Aramburo_New_nrach
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$ git push
+fatal: The current branch Corrine_Aramburo_New_nrach has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin Corrine_Aramburo_New_nrach
+
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearamburo$  git push --set-upstream origin Corrine_Aramburo_New_nrach
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (15/15), 3.89 KiB | 3.89 MiB/s, done.
+Total 15 (delta 3), reused 6 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+remote: 
+remote: Create a pull request for 'Corrine_Aramburo_New_nrach' on GitHub by visiting:
+remote:      https://github.com/aramburoc/Git-Hub-Collaboration-Practice-/pull/new/Corrine_Aramburo_New_nrach
+remote: 
+To https://github.com/aramburoc/Git-Hub-Collaboration-Practice-.git
+ * [new branch]      Corrine_Aramburo_New_nrach -> Corrine_Aramburo_New_nrach
+Branch 'Corrine_Aramburo_New_nrach' set up to track remote branch 'Corrine_Aramburo_New_nrach' from 'origin'.
+(base) Corrines-MacBook-Pro-2:Git-Hub-Collaboration-Practice- corrinearambuo

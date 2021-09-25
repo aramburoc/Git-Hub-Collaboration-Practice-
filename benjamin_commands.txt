@@ -1,0 +1,24 @@
+Last login: Fri Sep 24 23:41:29 on ttys000
+(base) njila@MacBook-Air-de-Benjamin ~ % cd Desktop/GitHub
+(base) njila@MacBook-Air-de-Benjamin GitHub % git config --global user.name "benjaminfields"
+(base) njila@MacBook-Air-de-Benjamin GitHub % git config --global user.email "benjaminfields@berkeley.edu"
+(base) njila@MacBook-Air-de-Benjamin GitHub % git config --global credential.helper cache
+(base) njila@MacBook-Air-de-Benjamin GitHub % git clone https://github.com/aramburoc/Git-Hub-Collaboration-Practice-.git
+Cloning into 'Git-Hub-Collaboration-Practice-'...
+remote: Enumerating objects: 42, done.
+remote: Counting objects: 100% (42/42), done.
+remote: Compressing objects: 100% (33/33), done.
+remote: Total 42 (delta 15), reused 22 (delta 6), pack-reused 0
+Receiving objects: 100% (42/42), 11.10 KiB | 3.70 MiB/s, done.
+Resolving deltas: 100% (15/15), done.
+(base) njila@MacBook-Air-de-Benjamin GitHub % cd Git-Hub-Collaboration-Practice- 
+(base) njila@MacBook-Air-de-Benjamin Git-Hub-Collaboration-Practice- % git checkout -b benjamin_branch
+Switched to a new branch 'benjamin_branch'
+(base) njila@MacBook-Air-de-Benjamin Git-Hub-Collaboration-Practice- % vim "Name of Group Members"
+(base) njila@MacBook-Air-de-Benjamin Git-Hub-Collaboration-Practice- % touch benjamin_commands.txt
+(base) njila@MacBook-Air-de-Benjamin Git-Hub-Collaboration-Practice- % vim benjamin_commands.txt
+
+git status 
+git add .
+git commit -m "finally"
+git push
